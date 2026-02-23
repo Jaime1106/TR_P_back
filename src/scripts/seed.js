@@ -1,16 +1,26 @@
+const { sequelize, ContribuyenteType, Calendar, Period, CalendarRule } = require('../models');
 const fs = require('fs');
 const path = require('path');
-const { sequelize, ContribuyenteType, Calendar, Period, CalendarRule } = require('../models');
 
 async function seed() {
   try {
-    console.log('🌱 Cargando datos iniciales - CALENDARIO 2026...');
+    console.log('🌱 Ejecutando seed...');
 
-    // Sincronizar base de datos
-    await sequelize.sync({ force: true });
-    console.log('✅ Tablas creadas');
+    // Verificar si ya hay datos
+    const existingRules = await CalendarRule.count();
+    if (existingRules > 0) {
+      console.log(`✅ Base de datos ya tiene ${existingRules} reglas. Seed omitido.`);
+      return;
+    }
 
-    // Crear tipos de contribuyente (solo 4 tipos)
+    // Leer JSON
+    const jsonPath = path.join(__dirname, '../data/calendario_2026.json');
+    const rawData = fs.readFileSync(jsonPath, 'utf8');
+    const calendario = JSON.parse(rawData);
+
+    console.log(`📅 Cargando calendario ${calendario.year}...`);
+
+    // Crear tipos de contribuyente
     const tipos = await ContribuyenteType.bulkCreate([
       { name: 'Gran Contribuyente', code: 'gran-contribuyente' },
       { name: 'Responsable de IVA Bimestral', code: 'responsable-iva-bimestral' },
@@ -18,26 +28,14 @@ async function seed() {
       { name: 'No Responsable de IVA', code: 'no-responsable-iva' }
     ]);
 
-    // Mapa para buscar tipos por nombre
     const tipoMap = {};
     tipos.forEach(t => tipoMap[t.name] = t);
 
-    // Leer el JSON
-    const rawData = fs.readFileSync(path.join(__dirname, '../data/calendario_2026.json'));
-    const calendario = JSON.parse(rawData);
-
-    console.log(`📅 Procesando calendario ${calendario.year}...`);
-
     // Procesar cada dígito
     for (const digitData of calendario.digits) {
-      const ultimoDigito = digitData.digit;
-      
       for (const contribData of digitData.contribuyentes) {
-        const tipoId = tipoMap[contribData.tipo]?.id;
-        if (!tipoId) {
-          console.warn(`⚠️ Tipo no encontrado: ${contribData.tipo}`);
-          continue;
-        }
+        const tipo = tipoMap[contribData.tipo];
+        if (!tipo) continue;
 
         for (const impuestoData of contribData.impuestos) {
           // Buscar o crear calendario
@@ -60,19 +58,7 @@ async function seed() {
           }
 
           for (const periodoData of impuestoData.periodos) {
-            // Extraer mes de inicio del período
-            let startMonth = 1;
-            if (periodoData.periodo.includes('Ene-Feb')) startMonth = 1;
-            else if (periodoData.periodo.includes('Mar-Abr')) startMonth = 3;
-            else if (periodoData.periodo.includes('May-Jun')) startMonth = 5;
-            else if (periodoData.periodo.includes('Jul-Ago')) startMonth = 7;
-            else if (periodoData.periodo.includes('Sep-Oct')) startMonth = 9;
-            else if (periodoData.periodo.includes('Nov-Dic')) startMonth = 11;
-            else if (periodoData.periodo.includes('Enero')) startMonth = 1;
-            else if (periodoData.periodo.includes('Febrero')) startMonth = 2;
-            // ... agregar más meses según necesites
-
-            // Buscar o crear período
+            // Crear período
             let period = await Period.findOne({
               where: {
                 calendarId: calendar.id,
@@ -84,31 +70,38 @@ async function seed() {
               period = await Period.create({
                 calendarId: calendar.id,
                 period: periodoData.periodo,
-                startMonth,
-                endMonth: startMonth + 1 // Simplificado, ajusta según frecuencia
+                startMonth: 1,
+                endMonth: 12
               });
             }
 
-            // Crear regla con el dígito específico
+            // Crear regla
             await CalendarRule.create({
               periodId: period.id,
-              contribuyenteTypeId: tipoId,
+              contribuyenteTypeId: tipo.id,
               baseDate: periodoData.fecha_vencimiento,
-              dayAdjustment: false, // Ya no necesitamos ajuste porque las fechas ya están por dígito
-              ultimoDigito // Nuevo campo que debemos agregar al modelo
+              dayAdjustment: false,
+              ultimoDigito: digitData.digit
             });
           }
         }
       }
     }
 
-    console.log('✅ Calendario cargado exitosamente!');
-    
+    const totalRules = await CalendarRule.count();
+    console.log(`✅ Seed completado. Total reglas: ${totalRules}`);
+
   } catch (error) {
-    console.error('❌ Error:', error);
-  } finally {
-    await sequelize.close();
+    console.error('❌ Error en seed:', error);
+    throw error;
   }
 }
 
-seed();
+// Si se ejecuta directamente
+if (require.main === module) {
+  seed()
+    .then(() => process.exit(0))
+    .catch(() => process.exit(1));
+}
+
+module.exports = seed;
