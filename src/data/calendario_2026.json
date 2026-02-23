@@ -1,0 +1,2505 @@
+{
+  "year": 2026,
+  "digits": [
+    {
+      "digit": 0,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-23" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-24" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-24" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-26" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-23" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-23" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-26" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-11" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-17" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-16" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-18" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-19" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-14" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-25" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-27" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-25" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-27" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-24" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-26" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-24" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-24" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-28" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-30" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-29" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-27" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-28" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-29" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-30" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-27" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-28" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-29" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-26" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-28" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-29" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-28" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-30" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-30" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-26" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-30" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-30" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-28" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-30" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-28" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-26" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-29" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-30" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-28" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-30" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-30" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-31" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-30" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-30" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-31" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-30" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-30" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-30" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-30" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-31" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-31" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-30" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-31" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-30" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-30" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-30" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-31" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 1,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-10" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-10" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-13" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-12" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-10" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-09" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-12" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-09" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-09" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-11" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-10" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-13" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-10" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-12" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-09" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-09" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-11" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-13" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-12" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-09" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-13" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-12" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-27" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-27" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-30" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-29" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-30" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-31" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-31" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-30" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-30" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-30" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-29" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-29" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-27" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-29" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-31" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-30" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-30" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-29" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-12" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-12" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-15" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-14" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-12" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-13" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-14" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-11" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-14" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-13" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-14" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-15" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-12" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-14" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-13" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-11" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-13" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-15" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-14" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-12" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-14" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-13" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-11" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-13" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-15" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-14" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-14" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-17" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-16" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-14" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-16" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-13" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-16" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-15" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-16" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-17" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-16" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-13" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-17" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-16" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-14" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-16" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-13" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-15" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-17" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-16" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-19" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-18" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-16" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-18" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-18" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-18" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-18" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-18" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 2,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-11" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-11" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-14" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-13" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-11" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-10" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-13" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-10" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-13" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-12" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-11" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-14" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-11" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-13" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-10" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-10" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-12" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-14" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-13" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-10" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-14" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-13" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-26" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-29" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-26" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-30" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-28" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-29" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-29" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-28" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-30" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-29" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-13" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-16" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-13" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-12" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-15" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-12" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-15" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-14" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-13" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-16" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-12" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-12" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-14" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-16" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-15" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-12" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-12" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-14" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-16" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-15" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-15" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-18" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-17" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-15" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-14" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-17" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-14" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-17" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-16" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-15" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-17" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-14" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-17" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-15" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-17" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-14" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-14" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-16" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-17" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-20" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-17" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-19" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-19" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-18" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-17" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-19" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-18" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 3,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-12" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-12" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-15" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-14" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-12" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-13" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-14" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-11" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-14" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-13" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-14" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-15" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-12" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-14" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-13" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-11" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-13" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-15" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-14" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-11" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-15" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-14" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-25" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-25" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-28" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-25" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-29" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-27" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-28" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-28" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-23" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-25" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-29" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-28" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-14" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-14" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-17" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-16" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-14" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-16" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-13" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-16" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-15" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-16" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-17" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-14" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-16" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-13" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-15" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-17" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-16" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-14" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-16" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-13" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-15" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-17" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-16" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-19" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-18" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-16" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-18" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-18" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-18" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-18" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-18" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-18" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-18" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-21" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-18" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-20" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-20" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-20" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-20" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 4,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-13" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-16" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-16" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-14" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-18" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-14" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-15" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-15" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-13" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-14" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-14" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-17" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-15" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-14" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-18" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-15" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-24" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-27" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-24" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-28" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-26" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-25" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-27" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-22" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-28" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-25" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-15" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-15" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-18" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-17" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-18" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-20" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-17" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-17" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-15" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-17" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-17" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-15" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-17" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-17" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-20" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-20" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-18" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-22" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-19" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-21" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-19" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-19" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-18" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-21" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-19" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-22" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-22" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-20" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-24" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-21" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-21" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-21" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-20" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 5,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-16" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-17" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-17" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-19" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-16" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-18" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-16" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-15" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-18" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-15" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-19" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-23" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-24" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-23" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-27" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-25" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-24" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-26" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-21" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-27" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-24" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-18" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-19" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-19" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-21" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-18" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-18" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-21" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-20" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-21" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-23" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-21" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-23" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-19" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-20" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-22" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-20" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-23" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-23" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-19" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-23" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-23" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-23" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-19" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-22" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-23" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-22" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-23" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-23" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-25" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-22" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-22" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-25" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 6,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-17" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-20" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-18" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-20" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-19" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-17" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-16" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-16" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-20" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-20" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-23" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-22" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-24" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-23" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-18" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-19" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-22" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-20" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-18" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-22" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-21" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-21" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-19" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-18" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-21" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-22" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-18" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-21" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-21" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-21" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-24" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-24" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-22" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-20" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-24" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-23" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-21" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-24" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-24" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-21" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-24" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-20" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-23" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-23" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-26" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-24" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-22" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-26" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-25" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-23" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-26" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-23" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-22" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 7,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-18" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-21" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-19" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-21" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-20" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-18" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-17" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-17" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-21" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-19" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-22" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-19" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-21" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-22" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-17" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-18" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-21" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-20" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-21" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-20" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-23" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-23" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-21" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-23" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-19" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-22" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-22" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-20" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-23" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-23" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-19" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-22" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-23" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-23" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-23" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-19" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-19" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-22" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-23" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-22" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-25" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-23" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-25" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-24" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-22" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-25" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-24" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-27" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-25" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-27" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-26" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-24" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-27" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 8,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-19" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-22" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-22" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-24" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-21" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-21" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-19" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-23" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-22" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-22" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-22" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-13" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-21" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-18" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-22" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-20" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-21" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-16" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-17" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-20" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-22" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-19" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-20" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-21" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-21" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-24" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-24" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-24" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-26" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-23" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-23" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-21" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-24" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-24" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-21" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-24" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-23" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-20" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-25" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-24" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-23" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-23" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-26" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-26" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-25" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-28" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-25" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-25" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-26" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-23" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-26" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-25" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-22" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-27" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-26" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-25" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-25" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-28" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-28" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-27" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-30" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-24" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-27" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-29" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-27" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-28" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-25" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-28" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-27" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-24" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-29" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-28" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "digit": 9,
+      "contribuyentes": [
+        {
+          "tipo": "Gran Contribuyente",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-20" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-23" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-23" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-22" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-25" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-22" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-22" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-20" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-22" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-24" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-25" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-21" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-25" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-25" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "mensual",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-12" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-20" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-17" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-19" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-20" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-18" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-15" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-16" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-19" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-21" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-18" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-18" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-19" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Bimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-22" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-25" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-25" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-27" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-24" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-24" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "bimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-27" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-22" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-27" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-24" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-23" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-26" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-27" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Responsable de IVA Cuatrimestral",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-24" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-27" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-29" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-27" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-26" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-29" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-25" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-26" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-28" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-26" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-29" }
+              ]
+            },
+            {
+              "nombre": "IVA",
+              "frecuencia": "cuatrimestral",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Ene-Abr 2026", "fecha_vencimiento": "2026-05-29" },
+                { "periodo": "May-Ago 2026", "fecha_vencimiento": "2026-09-25" },
+                { "periodo": "Sep-Dic 2026", "fecha_vencimiento": "2027-01-29" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-29" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-24" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-29" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-26" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-25" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-28" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-29" }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "No Responsable de IVA",
+          "impuestos": [
+            {
+              "nombre": "ReteFuente",
+              "frecuencia": "mensual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Enero 2026", "fecha_vencimiento": "2026-02-26" },
+                { "periodo": "Febrero 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Marzo 2026", "fecha_vencimiento": "2026-04-29" },
+                { "periodo": "Abril 2026", "fecha_vencimiento": "2026-05-31" },
+                { "periodo": "Mayo 2026", "fecha_vencimiento": "2026-06-29" },
+                { "periodo": "Junio 2026", "fecha_vencimiento": "2026-07-28" },
+                { "periodo": "Julio 2026", "fecha_vencimiento": "2026-08-31" },
+                { "periodo": "Agosto 2026", "fecha_vencimiento": "2026-09-27" },
+                { "periodo": "Septiembre 2026", "fecha_vencimiento": "2026-10-28" },
+                { "periodo": "Octubre 2026", "fecha_vencimiento": "2026-11-30" },
+                { "periodo": "Noviembre 2026", "fecha_vencimiento": "2026-12-28" },
+                { "periodo": "Diciembre 2026", "fecha_vencimiento": "2027-01-31" }
+              ]
+            },
+            {
+              "nombre": "Renta",
+              "frecuencia": "anual",
+              "institucion": "DIAN",
+              "periodos": [
+                { "periodo": "Año 2025", "fecha_vencimiento": "2026-05-31" }
+              ]
+            },
+            {
+              "nombre": "ICA",
+              "frecuencia": "bimestral",
+              "institucion": "Alcaldia Barranquilla",
+              "periodos": [
+                { "periodo": "Ene-Feb 2026", "fecha_vencimiento": "2026-03-26" },
+                { "periodo": "Mar-Abr 2026", "fecha_vencimiento": "2026-05-31" },
+                { "periodo": "May-Jun 2026", "fecha_vencimiento": "2026-07-28" },
+                { "periodo": "Jul-Ago 2026", "fecha_vencimiento": "2026-09-27" },
+                { "periodo": "Sep-Oct 2026", "fecha_vencimiento": "2026-11-30" },
+                { "periodo": "Nov-Dic 2026", "fecha_vencimiento": "2027-01-31" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
