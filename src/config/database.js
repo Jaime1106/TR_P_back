@@ -2,20 +2,20 @@ const { Sequelize } = require('sequelize');
 const path = require('path');
 const fs = require('fs');
 
-// En Render, usar /data/database.sqlite (persistente en free tier)
+// En Render, usar /tmp/data (tiene permisos de escritura)
 // En local, usar database.sqlite en la raíz
 const storage = process.env.NODE_ENV === 'production'
-  ? '/data/database.sqlite'
+  ? '/tmp/data/database.sqlite'
   : path.join(__dirname, '../../database.sqlite');
 
 console.log('📁 Usando base de datos:', storage);
 
 // Asegurar que el directorio existe (solo en producción)
 if (process.env.NODE_ENV === 'production') {
-  const dataDir = '/data';
+  const dataDir = '/tmp/data';
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
-    console.log('✅ Directorio /data creado');
+    console.log('✅ Directorio /tmp/data creado');
   }
 }
 
