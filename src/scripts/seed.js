@@ -17,15 +17,24 @@ async function seed() {
 
     // Leer JSON
     const jsonPath = path.join(__dirname, '../data/calendario_2026.json');
+    
+    // Verificar que el archivo existe
+    if (!fs.existsSync(jsonPath)) {
+      console.error('❌ Archivo calendario_2026.json no encontrado en:', jsonPath);
+      return;
+    }
+
     const rawData = fs.readFileSync(jsonPath, 'utf8');
     const calendario = JSON.parse(rawData);
 
     // Crear tipos de contribuyente
-    const tipos = await ContribuyenteType.bulkCreate([
-      { name: 'Gran Contribuyente', code: 'gran-contribuyente' },
-      { name: 'Responsable de IVA Bimestral', code: 'responsable-iva-bimestral' },
-      { name: 'Responsable de IVA Cuatrimestral', code: 'responsable-iva-cuatrimestral' },
-      { name: 'No Responsable de IVA', code: 'no-responsable-iva' }
+    const [tipos] = await Promise.all([
+      ContribuyenteType.bulkCreate([
+        { name: 'Gran Contribuyente', code: 'gran-contribuyente' },
+        { name: 'Responsable de IVA Bimestral', code: 'responsable-iva-bimestral' },
+        { name: 'Responsable de IVA Cuatrimestral', code: 'responsable-iva-cuatrimestral' },
+        { name: 'No Responsable de IVA', code: 'no-responsable-iva' }
+      ], { ignoreDuplicates: true })
     ]);
 
     const tipoMap = {};
@@ -35,7 +44,10 @@ async function seed() {
     for (const digitData of calendario.digits) {
       for (const contribData of digitData.contribuyentes) {
         const tipo = tipoMap[contribData.tipo];
-        if (!tipo) continue;
+        if (!tipo) {
+          console.warn(`⚠️ Tipo no encontrado: ${contribData.tipo}`);
+          continue;
+        }
 
         for (const impuestoData of contribData.impuestos) {
           // Buscar o crear calendario
