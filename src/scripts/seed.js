@@ -4,7 +4,7 @@ const path = require('path');
 
 async function seed() {
   try {
-    console.log('🌱 Ejecutando seed...');
+    console.log('🌱 Verificando base de datos...');
 
     // Verificar si ya hay datos
     const existingRules = await CalendarRule.count();
@@ -13,12 +13,12 @@ async function seed() {
       return;
     }
 
+    console.log('📅 Cargando calendario 2026...');
+
     // Leer JSON
     const jsonPath = path.join(__dirname, '../data/calendario_2026.json');
     const rawData = fs.readFileSync(jsonPath, 'utf8');
     const calendario = JSON.parse(rawData);
-
-    console.log(`📅 Cargando calendario ${calendario.year}...`);
 
     // Crear tipos de contribuyente
     const tipos = await ContribuyenteType.bulkCreate([

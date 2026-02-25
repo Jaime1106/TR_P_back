@@ -13,6 +13,9 @@ const sequelize = new Sequelize({
   dialect: 'sqlite',
   storage: storage,
   logging: false,
+  dialectOptions: {
+    mode: require('better-sqlite3').OPEN_READWRITE | require('better-sqlite3').OPEN_CREATE
+  },
   define: {
     timestamps: true,
     underscored: false
