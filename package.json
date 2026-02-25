@@ -1,22 +1,19 @@
 {
   "name": "tr-backend",
   "version": "1.0.0",
-  "description": "Backend para consultas tributarias",
-  "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "seed": "node src/scripts/seed.js",
-    "postinstall": "echo 'Instalación completada'"
+    "postinstall": "npm rebuild sqlite3 --build-from-source"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6",
     "sequelize": "^6.33.0",
-    "sqlite3": "^5.1.6"
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
