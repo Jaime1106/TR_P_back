@@ -1,11 +1,13 @@
 {
   "name": "tr-backend",
   "version": "1.0.0",
+
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "postinstall": "npm install sqlite3@5.1.6 --save"
+    "seed": "node src/scripts/seed.js",
+    "postinstall": "npm run seed"
   },
+
   "dependencies": {
     "bcryptjs": "2.4.3",
     "cors": "2.8.5",

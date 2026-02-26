@@ -4,40 +4,40 @@ const path = require('path');
 
 async function seed() {
   try {
-    console.log('🌱 Verificando base de datos SQLite3...');
+    console.log('🌱 Iniciando seed...');
 
-    // Verificar si ya hay datos
-    const existingRules = await CalendarRule.count();
-    if (existingRules > 0) {
-      console.log(`✅ Base de datos ya tiene ${existingRules} reglas. Seed omitido.`);
-      return;
-    }
+    // 1. PRIMERO: Sincronizar la base de datos (crear tablas)
+    console.log('📦 Sincronizando base de datos...');
+    await sequelize.sync({ force: true }); // force: true elimina y recrea tablas
+    console.log('✅ Tablas creadas correctamente');
 
-    console.log('📅 Cargando calendario 2026...');
-
-    // Leer JSON
+    // 2. Leer el archivo JSON
+    console.log('📖 Leyendo calendario 2026...');
     const jsonPath = path.join(__dirname, '../data/calendario_2026.json');
     
     if (!fs.existsSync(jsonPath)) {
-      console.error('❌ Archivo calendario_2026.json no encontrado en:', jsonPath);
-      return;
+      throw new Error(`Archivo no encontrado: ${jsonPath}`);
     }
 
     const rawData = fs.readFileSync(jsonPath, 'utf8');
     const calendario = JSON.parse(rawData);
+    console.log(`✅ JSON cargado: ${calendario.digits.length} dígitos`);
 
-    // Crear tipos de contribuyente
+    // 3. Crear tipos de contribuyente
+    console.log('👤 Creando tipos de contribuyente...');
     const tipos = await ContribuyenteType.bulkCreate([
       { name: 'Gran Contribuyente', code: 'gran-contribuyente' },
       { name: 'Responsable de IVA Bimestral', code: 'responsable-iva-bimestral' },
       { name: 'Responsable de IVA Cuatrimestral', code: 'responsable-iva-cuatrimestral' },
       { name: 'No Responsable de IVA', code: 'no-responsable-iva' }
-    ], { ignoreDuplicates: true });
+    ], { ignoreDuplicates: false });
 
     const tipoMap = {};
     tipos.forEach(t => tipoMap[t.name] = t);
+    console.log(`✅ ${tipos.length} tipos creados`);
 
-    // Procesar cada dígito
+    // 4. Procesar cada dígito
+    let totalReglas = 0;
     for (const digitData of calendario.digits) {
       for (const contribData of digitData.contribuyentes) {
         const tipo = tipoMap[contribData.tipo];
@@ -92,13 +92,17 @@ async function seed() {
               dayAdjustment: false,
               ultimoDigito: digitData.digit
             });
+            totalReglas++;
           }
         }
       }
     }
 
-    const totalRules = await CalendarRule.count();
-    console.log(`✅ Seed completado. Total reglas: ${totalRules}`);
+    console.log(`✅ Seed completado. Total reglas creadas: ${totalReglas}`);
+
+    // 5. Verificar
+    const verifyCount = await CalendarRule.count();
+    console.log(`📊 Verificación: ${verifyCount} reglas en base de datos`);
 
   } catch (error) {
     console.error('❌ Error en seed:', error);
@@ -109,8 +113,14 @@ async function seed() {
 // Si se ejecuta directamente
 if (require.main === module) {
   seed()
-    .then(() => process.exit(0))
-    .catch(() => process.exit(1));
+    .then(() => {
+      console.log('🎉 Seed finalizado exitosamente');
+      process.exit(0);
+    })
+    .catch((error) => {
+      console.error('💥 Error fatal:', error);
+      process.exit(1);
+    });
 }
 
 module.exports = seed;
