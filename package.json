@@ -1,13 +1,10 @@
 {
   "name": "tr-backend",
   "version": "1.0.0",
-  "description": "Backend para consultas tributarias con SQLite3",
-  "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "seed": "node src/scripts/seed.js",
-    "postinstall": "echo 'Instalación completada'"
+    "postinstall": "npm install sqlite3@5.1.6 --save"
   },
   "dependencies": {
     "bcryptjs": "2.4.3",

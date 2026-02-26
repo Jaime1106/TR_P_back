@@ -2,14 +2,31 @@ const { Sequelize } = require('sequelize');
 const path = require('path');
 const fs = require('fs');
 
-// Determinar ruta según entorno
+console.log('🔧 Iniciando configuración de base de datos...');
+
+// Verificar sqlite3 antes de continuar
+try {
+  require.resolve('sqlite3');
+  console.log('✅ sqlite3 encontrado en node_modules');
+  const sqlite3 = require('sqlite3');
+  console.log('📦 sqlite3 versión:', sqlite3.VERSION);
+} catch (error) {
+  console.error('❌ sqlite3 no encontrado:', error.message);
+  console.log('📁 Contenido de node_modules:');
+  const nodeModules = path.join(__dirname, '../../node_modules');
+  if (fs.existsSync(nodeModules)) {
+    const dirs = fs.readdirSync(nodeModules);
+    console.log(dirs.filter(d => d.includes('sqlite')).join(', '));
+  }
+  process.exit(1);
+}
+
 const storage = process.env.NODE_ENV === 'production'
-  ? '/tmp/data/database.sqlite'  // Render usa /tmp (con permisos)
+  ? '/tmp/data/database.sqlite'
   : path.join(__dirname, '../../database.sqlite');
 
-console.log('📁 Usando base de datos SQLite3 en:', storage);
+console.log('📁 Usando base de datos en:', storage);
 
-// En producción, asegurar que el directorio existe
 if (process.env.NODE_ENV === 'production') {
   const dataDir = '/tmp/data';
   if (!fs.existsSync(dataDir)) {
@@ -18,30 +35,14 @@ if (process.env.NODE_ENV === 'production') {
   }
 }
 
-// Configuración estándar para sqlite3
 const sequelize = new Sequelize({
   dialect: 'sqlite',
   storage: storage,
-  logging: process.env.NODE_ENV === 'development' ? console.log : false,
+  logging: console.log,
   define: {
     timestamps: true,
-    underscored: false,
-    freezeTableName: true
-  },
-  retry: {
-    max: 3,
-    timeout: 3000
+    underscored: false
   }
 });
-
-// Probar conexión inmediatamente
-(async () => {
-  try {
-    await sequelize.authenticate();
-    console.log('✅ Conexión a SQLite3 establecida correctamente');
-  } catch (error) {
-    console.error('❌ Error conectando a SQLite3:', error.message);
-  }
-})();
 
 module.exports = sequelize;
