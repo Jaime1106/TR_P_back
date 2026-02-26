@@ -4,7 +4,7 @@ const path = require('path');
 
 async function seed() {
   try {
-    console.log('🌱 Verificando base de datos...');
+    console.log('🌱 Verificando base de datos SQLite3...');
 
     // Verificar si ya hay datos
     const existingRules = await CalendarRule.count();
@@ -18,7 +18,6 @@ async function seed() {
     // Leer JSON
     const jsonPath = path.join(__dirname, '../data/calendario_2026.json');
     
-    // Verificar que el archivo existe
     if (!fs.existsSync(jsonPath)) {
       console.error('❌ Archivo calendario_2026.json no encontrado en:', jsonPath);
       return;
@@ -28,14 +27,12 @@ async function seed() {
     const calendario = JSON.parse(rawData);
 
     // Crear tipos de contribuyente
-    const [tipos] = await Promise.all([
-      ContribuyenteType.bulkCreate([
-        { name: 'Gran Contribuyente', code: 'gran-contribuyente' },
-        { name: 'Responsable de IVA Bimestral', code: 'responsable-iva-bimestral' },
-        { name: 'Responsable de IVA Cuatrimestral', code: 'responsable-iva-cuatrimestral' },
-        { name: 'No Responsable de IVA', code: 'no-responsable-iva' }
-      ], { ignoreDuplicates: true })
-    ]);
+    const tipos = await ContribuyenteType.bulkCreate([
+      { name: 'Gran Contribuyente', code: 'gran-contribuyente' },
+      { name: 'Responsable de IVA Bimestral', code: 'responsable-iva-bimestral' },
+      { name: 'Responsable de IVA Cuatrimestral', code: 'responsable-iva-cuatrimestral' },
+      { name: 'No Responsable de IVA', code: 'no-responsable-iva' }
+    ], { ignoreDuplicates: true });
 
     const tipoMap = {};
     tipos.forEach(t => tipoMap[t.name] = t);
